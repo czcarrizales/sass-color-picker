@@ -1624,71 +1624,231 @@ button {
 }
 
 .btn-primary {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: blue;
+}
+.btn-primary:hover {
+  background-color: #6666ff;
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid blue;
+}
+.btn-outlined-primary:hover {
   background-color: blue;
 }
 
 .btn-secondary {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: orange;
+}
+.btn-secondary:hover {
+  background-color: #ffc966;
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid orange;
+}
+.btn-outlined-secondary:hover {
   background-color: orange;
 }
 
 .btn-error {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: red;
+}
+.btn-error:hover {
+  background-color: #ff6666;
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid red;
+}
+.btn-outlined-error:hover {
   background-color: red;
 }
 
 .btn-info {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: pink;
+}
+.btn-info:hover {
+  background-color: white;
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid pink;
+}
+.btn-outlined-info:hover {
   background-color: pink;
 }
 
 .btn-blue {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: blue;
+}
+.btn-blue:hover {
+  background-color: #6666ff;
+}
+
+.btn-outlined-blue {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid blue;
+}
+.btn-outlined-blue:hover {
   background-color: blue;
 }
 
 .btn-orange {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: orange;
+}
+.btn-orange:hover {
+  background-color: #ffc966;
+}
+
+.btn-outlined-orange {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid orange;
+}
+.btn-outlined-orange:hover {
   background-color: orange;
 }
 
 .btn-red {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: red;
+}
+.btn-red:hover {
+  background-color: #ff6666;
+}
+
+.btn-outlined-red {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid red;
+}
+.btn-outlined-red:hover {
   background-color: red;
 }
 
 .btn-pink {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: pink;
+}
+.btn-pink:hover {
+  background-color: white;
+}
+
+.btn-outlined-pink {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid pink;
+}
+.btn-outlined-pink:hover {
   background-color: pink;
 }
 
 .btn-black {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: black;
+}
+.btn-black:hover {
+  background-color: #333333;
+}
+
+.btn-outlined-black {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn-outlined-black:hover {
   background-color: black;
 }
 
 .btn-white {
-  cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
+  border: 0;
   padding: 0.8rem 1.6rem;
+  background-color: white;
+}
+.btn-white:hover {
+  background-color: white;
+}
+
+.btn-outlined-white {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  border: 1px solid white;
+}
+.btn-outlined-white:hover {
   background-color: white;
 }

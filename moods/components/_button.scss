@@ -1,8 +1,23 @@
+@mixin btn($bg-color) {
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: $base-padding $base-padding * 2;
+    background-color: $bg-color;
+}
+
 @each $key, $val in $colors {
     .btn-#{$key} {
-        cursor: pointer;
-        text-decoration: none;
-        padding: $base-padding $base-padding * 2;
-        background-color: $val;
+        @include btn($val);
+        &:hover {
+            background-color: lighten($val, 20);
+        }
+    }
+    .btn-outlined-#{$key} {
+        @include btn(white);
+        border: $base-border-thickness solid $val;
+        &:hover {
+            background-color: $val;
+        }
     }
 }
