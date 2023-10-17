@@ -1646,6 +1646,18 @@ button {
   background-color: blue;
 }
 
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: blue;
+  color: #ffffcc;
+}
+.btn-complement-primary:hover {
+  background-color: #ffffcc;
+}
+
 .btn-secondary {
   text-decoration: none;
   cursor: pointer;
@@ -1667,6 +1679,18 @@ button {
 }
 .btn-outlined-secondary:hover {
   background-color: orange;
+}
+
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: orange;
+  color: #ccdeff;
+}
+.btn-complement-secondary:hover {
+  background-color: #ccdeff;
 }
 
 .btn-error {
@@ -1692,6 +1716,18 @@ button {
   background-color: red;
 }
 
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: red;
+  color: #ccffff;
+}
+.btn-complement-error:hover {
+  background-color: #ccffff;
+}
+
 .btn-info {
   text-decoration: none;
   cursor: pointer;
@@ -1713,6 +1749,18 @@ button {
 }
 .btn-outlined-info:hover {
   background-color: pink;
+}
+
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: pink;
+  color: white;
+}
+.btn-complement-info:hover {
+  background-color: white;
 }
 
 .btn-blue {
@@ -1738,6 +1786,18 @@ button {
   background-color: blue;
 }
 
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: blue;
+  color: #ffffcc;
+}
+.btn-complement-blue:hover {
+  background-color: #ffffcc;
+}
+
 .btn-orange {
   text-decoration: none;
   cursor: pointer;
@@ -1759,6 +1819,18 @@ button {
 }
 .btn-outlined-orange:hover {
   background-color: orange;
+}
+
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: orange;
+  color: #ccdeff;
+}
+.btn-complement-orange:hover {
+  background-color: #ccdeff;
 }
 
 .btn-red {
@@ -1784,6 +1856,18 @@ button {
   background-color: red;
 }
 
+.btn-complement-red {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: red;
+  color: #ccffff;
+}
+.btn-complement-red:hover {
+  background-color: #ccffff;
+}
+
 .btn-pink {
   text-decoration: none;
   cursor: pointer;
@@ -1805,6 +1889,18 @@ button {
 }
 .btn-outlined-pink:hover {
   background-color: pink;
+}
+
+.btn-complement-pink {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: pink;
+  color: white;
+}
+.btn-complement-pink:hover {
+  background-color: white;
 }
 
 .btn-black {
@@ -1830,6 +1926,18 @@ button {
   background-color: black;
 }
 
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: black;
+  color: #666666;
+}
+.btn-complement-black:hover {
+  background-color: #666666;
+}
+
 .btn-white {
   text-decoration: none;
   cursor: pointer;
@@ -1850,5 +1958,17 @@ button {
   border: 1px solid white;
 }
 .btn-outlined-white:hover {
+  background-color: white;
+}
+
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+  color: white;
+}
+.btn-complement-white:hover {
   background-color: white;
 }
