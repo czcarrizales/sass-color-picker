@@ -1,18 +1,11 @@
+@import 'variables';
+
 * {
     margin: 0;
     padding: 0;
 }
 
-$primary: blue;
-$secondary: orange;
-$error: red;
-$info: pink;
 
-$base-padding: 0.8rem;
-$base-margin: 0.8rem;
-
-$base-border-thickness: 1px;
-$base-border-radius: 20px;
 
 h1 {
     color: $primary;
