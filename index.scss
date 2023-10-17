@@ -3,8 +3,50 @@
     padding: 0;
 }
 
+$primary: blue;
+$secondary: orange;
+$error: red;
+$info: pink;
+
+$base-padding: 0.8rem;
+$base-margin: 0.8rem;
+
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
 h1 {
-    a {
-        color: red;
-    }
+    color: $primary;
+    margin-bottom: $base-margin;
+}
+
+a {
+    color: $secondary;
+}
+
+button {
+    background-color: $primary;
+    border-radius: $base-border-radius;
+    border: 1px solid black;
+    color: white;
+    padding: $base-padding;
+}
+
+.error {
+    border-color: $error;
+    color: $error;
+    margin: $base-margin;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+    border: 1px solid;
+}
+
+.info {
+    border-color: $info;
+    color: $info;
+    margin: $base-margin;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+    border: 1px solid;
 }
