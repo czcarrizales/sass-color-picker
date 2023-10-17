@@ -1,9 +1,21 @@
-$primary: blue;
+$primary: red;
 $secondary: orange;
 $error: red;
 $info: pink;
 
 // color palette
+$warm: (
+    "dominant": red,
+    "complement": orange,
+    "accent": yellow
+);
+
+$cool: (
+    "dominant": blue,
+    "complement": lightblue,
+    "accent": orange
+);
+
 $colors: (
     "primary": $primary,
     "secondary": $secondary,

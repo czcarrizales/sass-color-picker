@@ -6,25 +6,29 @@
     background-color: $bg-color;
 }
 
-@each $key, $val in $colors {
-    .btn-#{$key} {
-        @include btn($val);
-        &:hover {
-            background-color: lighten($val, 20);
-        }
-    }
-    .btn-outlined-#{$key} {
-        @include btn(white);
-        border: $base-border-thickness solid $val;
-        &:hover {
-            background-color: $val;
-        }
-    }
-    .btn-complement-#{$key} {
-        @include btn($val);
-        color: light-comp($val);
-        &:hover {
-            background-color: light-comp($val);
-        }
-    }
+@each $key, $val in $warm {
+    
 }
+
+// @each $key, $val in $colors {
+//     .btn-#{$key} {
+//         @include btn($val);
+//         &:hover {
+//             background-color: lighten($val, 20);
+//         }
+//     }
+//     .btn-outlined-#{$key} {
+//         @include btn(white);
+//         border: $base-border-thickness solid $val;
+//         &:hover {
+//             background-color: $val;
+//         }
+//     }
+//     .btn-complement-#{$key} {
+//         @include btn($val);
+//         color: light-comp($val);
+//         &:hover {
+//             background-color: light-comp($val);
+//         }
+//     }
+// }
