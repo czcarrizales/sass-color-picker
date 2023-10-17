@@ -1,0 +1,8 @@
+@each $key, $val in $colors {
+    .btn-#{$key} {
+        cursor: pointer;
+        text-decoration: none;
+        padding: $base-padding $base-padding * 2;
+        background-color: $val;
+    }
+}

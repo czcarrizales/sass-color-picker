@@ -1622,3 +1622,73 @@ button {
 .card .card-body a {
   text-decoration: underline;
 }
+
+.btn-primary {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: blue;
+}
+
+.btn-secondary {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: orange;
+}
+
+.btn-error {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: red;
+}
+
+.btn-info {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: pink;
+}
+
+.btn-blue {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: blue;
+}
+
+.btn-orange {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: orange;
+}
+
+.btn-red {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: red;
+}
+
+.btn-pink {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: pink;
+}
+
+.btn-black {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: black;
+}
+
+.btn-white {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  background-color: white;
+}
