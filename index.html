@@ -13,7 +13,7 @@
     <div id="main-container">
         <div id="main-container-title">
             <h1>Mood Test</h1>
-            <h2>Testing out moods.</h2>
+            <h2 id="main-container-subtitle">Testing out moods.</h2>
             <button id="main-container-button" onclick="getRandomColor()">Get a random mood!</button>
         </div>
         <div id="mood-target-container">
@@ -24,12 +24,13 @@
                 </div>
             </div>
         </div>
+        <div id="boxes">
+            <p id="box1" class="box">Primary</p>
+            <p id="box2" class="box">Secondary</p>
+            <p id="box3" class="box">Accent</p>
+        </div>
     </div>
-    <div id="boxes">
-        <p id="box1" class="box">Primary</p>
-        <p id="box2" class="box">Secondary</p>
-        <p id="box3" class="box">Accent</p>
-    </div>
+
     <div id="examples">
         <div id="card">
             <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1974"
@@ -40,8 +41,8 @@
         </div>
         <div id="profile-card">
             <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1972" alt="">
-            <h2 id="profile-card-name">Name</h2>
-            <h3 id="profile-card-email">Email</h3>
+            <h2 id="profile-card-name">Gwen Stacy</h2>
+            <h3 id="profile-card-email">gwenstacy@email.com</h3>
             <button id="profile-card-button">Follow Me!</button>
             <div id="profile-follow-container">
                 <div id="profile-card-followers">
@@ -57,23 +58,28 @@
         <div id="friends-list">
             <h2>Add Friends!</h2>
             <div class="friends-list-row">
-                <p class="friends-list-row-name">Name</p>
+                <img src="https://images.unsplash.com/photo-1560918801-53fe5c710a80?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1925" alt="">
+                <p class="friends-list-row-name">Mary Jane</p>
                 <button class="friends-list-row-button">Add</button>
             </div>
             <div class="friends-list-row">
-                <p class="friends-list-row-name">Name</p>
+                <img src="https://images.unsplash.com/photo-1500649297466-74794c70acfc?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070" alt="">
+                <p class="friends-list-row-name">Peter Parker</p>
                 <button class="friends-list-row-button">Add</button>
             </div>
             <div class="friends-list-row">
-                <p class="friends-list-row-name">Name</p>
+                <img src="https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2001" alt="">
+                <p class="friends-list-row-name">Emma Stone</p>
                 <button class="friends-list-row-button">Add</button>
             </div>
             <div class="friends-list-row">
-                <p class="friends-list-row-name">Name</p>
+                <img src="https://images.unsplash.com/photo-1474176857210-7287d38d27c6?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070" alt="">
+                <p class="friends-list-row-name">Eddie Brock</p>
                 <button class="friends-list-row-button">Add</button>
             </div>
             <div class="friends-list-row">
-                <p class="friends-list-row-name">Name</p>
+                <img src="https://images.unsplash.com/photo-1601576084861-5de423553c0f?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070" alt="">
+                <p class="friends-list-row-name">Victor Stone</p>
                 <button class="friends-list-row-button">Add</button>
             </div>
         </div>

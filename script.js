@@ -15,9 +15,9 @@ const getRandomColor = () => {
     document.getElementById('outer').className = `bg-secondary-${randomColor} `
     document.getElementById('middle').className = `bg-primary-${randomColor} `
     document.getElementById('inner').className = `bg-accent-${randomColor} `
-    document.getElementById('box1').className = `bg-primary-${randomColor} text-primary-copy-${randomColor} border-color-secondary-copy-${randomColor}`
-    document.getElementById('box2').className = `bg-secondary-${randomColor} text-secondary-copy-${randomColor} border-color-secondary-copy-${randomColor}`
-    document.getElementById('box3').className = `bg-accent-${randomColor} text-accent-copy-${randomColor} border-color-secondary-copy-${randomColor}`
+    document.getElementById('box1').className = `bg-primary-${randomColor} text-primary-copy-${randomColor} border-color-primary-copy-${randomColor}`
+    document.getElementById('box2').className = `bg-secondary-${randomColor} text-secondary-copy-${randomColor} border-color-primary-copy-${randomColor}`
+    document.getElementById('box3').className = `bg-accent-${randomColor} text-accent-copy-${randomColor} border-color-primary-copy-${randomColor}`
 
     //Shop Card
     document.getElementById('card').className = `bg-primary-${randomColor} text-primary-copy-${randomColor} border-color-secondary-copy-${randomColor}`

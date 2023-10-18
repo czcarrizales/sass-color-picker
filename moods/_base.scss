@@ -7,7 +7,6 @@
 }
 
 h1 {
-    margin-bottom: $base-margin;
     font-size: 96px;
 }
 
@@ -39,12 +38,14 @@ button {
 #main-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     border: none;
     border-radius: $base-border-radius;
     padding: 4rem 8rem;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 #main-container-button {
@@ -53,6 +54,10 @@ button {
 
 #main-container-title {
     margin-right: 40px;
+}
+
+#main-container-subtitle {
+    font-weight: 400;
 }
 
 #mood-target-container {
@@ -91,10 +96,12 @@ button {
 }
 
 #boxes {
-    margin-top: 40px;
     display: flex;
+    flex-direction: column;
+    justify-self: center;
     justify-content: center;
     padding: $base-padding;
+    margin-left: 4rem;
 }
 
 #box1 {
@@ -103,8 +110,8 @@ button {
     align-items: center;
     height: 150px;
     width: 150px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     border-style: solid;
     border-radius: $base-border-radius;
 }
@@ -115,8 +122,8 @@ button {
     align-items: center;
     height: 150px;
     width: 150px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     border-style: solid;
     border-radius: $base-border-radius;
 }
@@ -128,8 +135,8 @@ button {
     height: 150px;
     width: 150px;
     border-style: solid;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     border-radius: $base-border-radius;
 }
 
@@ -223,6 +230,13 @@ button {
     margin-top: 8px;
     border-radius: $base-border-radius;
     padding: .6rem 1rem;
+}
+
+.friends-list-row img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .friends-list-row-button {
