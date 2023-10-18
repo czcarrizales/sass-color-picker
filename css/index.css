@@ -5,16 +5,21 @@
   font-family: Inter;
 }
 
+html {
+  height: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 h1 {
-  font-size: 96px;
+  font-size: 32px;
 }
 
 body {
-  display: flex;
   flex-direction: column;
-  height: 100svh;
-  margin-left: 40px;
-  margin-right: 40px;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
 }
 
 button {
@@ -32,31 +37,37 @@ button:hover {
 
 #main-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  flex-direction: column;
   border-style: solid;
   border-radius: 30px;
-  padding: 4rem 8rem;
   margin-top: 40px;
   flex-wrap: wrap;
 }
 
-#main-container-button {
-  margin-top: 3rem;
-}
-
 #main-container-title {
-  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  flex: 1;
 }
 
 #main-container-subtitle {
+  font-size: 16px;
   font-weight: 400;
 }
 
+#main-container-button {
+  font-size: 16px;
+  margin-top: 3rem;
+}
+
 #mood-target-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin-top: 20px;
 }
 
 #current-mood {
@@ -68,8 +79,8 @@ button:hover {
   align-items: center;
   justify-content: center;
   border: 2px solid black;
-  height: 300px;
-  width: 300px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -78,33 +89,29 @@ button:hover {
   align-items: center;
   justify-content: center;
   border: 2px solid black;
-  height: 180px;
-  width: 180px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
 #inner {
   border: 2px solid black;
-  height: 80px;
-  width: 80px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
 
 #boxes {
   display: flex;
-  flex-direction: column;
-  justify-self: center;
   justify-content: center;
-  padding: 1.2rem;
-  margin-left: 4rem;
+  margin-top: 20px;
 }
 
 #box1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
-  width: 150px;
+  padding: 1rem;
   margin-top: 4px;
   margin-bottom: 4px;
   border-style: solid;
@@ -115,8 +122,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
-  width: 150px;
+  padding: 1rem;
   margin-top: 4px;
   margin-bottom: 4px;
   border-style: solid;
@@ -127,8 +133,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
-  width: 150px;
+  padding: 1rem;
   border-style: solid;
   margin-top: 4px;
   margin-bottom: 4px;
@@ -239,6 +244,44 @@ button:hover {
   padding: 0.6rem 1rem;
 }
 
+@media (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  #main-container {
+    padding: 4rem 2rem;
+    flex-direction: row;
+  }
+  #main-container-title {
+    justify-content: center;
+  }
+  #main-container-subtitle {
+    font-size: 1.2rem;
+  }
+  #main-container-button {
+    max-width: 240px;
+  }
+  #mood-target-container {
+    flex-direction: column;
+    flex: 1;
+  }
+  #outer {
+    height: 200px;
+    width: 200px;
+  }
+  #middle {
+    height: 140px;
+    width: 140px;
+  }
+  #inner {
+    height: 80px;
+    width: 80px;
+  }
+  #boxes {
+    flex-direction: column;
+    flex: 1;
+  }
+}
 @media (min-width: 0) {
   .responsive-test {
     color: red;
