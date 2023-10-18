@@ -89,6 +89,33 @@ $chromeo: (
     "accent-copy": black
 );
 
+$fresh: (
+    "complementary": #edf5e1,
+    "dominant": #5cdb95,
+    "accent": #05386b,
+    "complementary-copy": black,
+    "dominant-copy": black,
+    "accent-copy": white
+);
+
+$sophisticated: (
+    "complementary": #b1a296,
+    "dominant": #557a95,
+    "accent": white,
+    "complementary-copy": black,
+    "dominant-copy": white,
+    "accent-copy": black
+);
+
+$approachable: (
+    "complementary": #edc7b7,
+    "dominant": #eee2dc,
+    "accent": #123c69,
+    "complementary-copy": black,
+    "dominant-copy": black,
+    "accent-copy": white
+);
+
 
 // spacing
 $base-padding: 1.2rem;

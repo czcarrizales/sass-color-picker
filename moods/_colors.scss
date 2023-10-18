@@ -119,3 +119,39 @@
         border-color: $val;
     }
 }
+
+@each $key, $val in $fresh {
+    .text-#{$key}-fresh {
+        color: $val;
+    }
+    .bg-#{$key}-fresh {
+        background-color: $val;
+    }
+    .border-color-#{$key}-fresh {
+        border-color: $val;
+    }
+}
+
+@each $key, $val in $sophisticated {
+    .text-#{$key}-sophisticated {
+        color: $val;
+    }
+    .bg-#{$key}-sophisticated {
+        background-color: $val;
+    }
+    .border-color-#{$key}-sophisticated {
+        border-color: $val;
+    }
+}
+
+@each $key, $val in $approachable {
+    .text-#{$key}-approachable {
+        color: $val;
+    }
+    .bg-#{$key}-approachable {
+        background-color: $val;
+    }
+    .border-color-#{$key}-approachable {
+        border-color: $val;
+    }
+}
