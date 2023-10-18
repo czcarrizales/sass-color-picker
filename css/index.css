@@ -303,27 +303,27 @@ button:hover {
   }
 }
 
-.text-primary-summer {
+.text-complementary-summer {
   color: #e9b41d;
 }
 
-.bg-primary-summer {
+.bg-complementary-summer {
   background-color: #e9b41d;
 }
 
-.border-color-primary-summer {
+.border-color-complementary-summer {
   border-color: #e9b41d;
 }
 
-.text-secondary-summer {
+.text-dominant-summer {
   color: #3fc4e4;
 }
 
-.bg-secondary-summer {
+.bg-dominant-summer {
   background-color: #3fc4e4;
 }
 
-.border-color-secondary-summer {
+.border-color-dominant-summer {
   border-color: #3fc4e4;
 }
 
@@ -339,27 +339,27 @@ button:hover {
   border-color: #f15e34;
 }
 
-.text-primary-copy-summer {
+.text-complementary-copy-summer {
   color: black;
 }
 
-.bg-primary-copy-summer {
+.bg-complementary-copy-summer {
   background-color: black;
 }
 
-.border-color-primary-copy-summer {
+.border-color-complementary-copy-summer {
   border-color: black;
 }
 
-.text-secondary-copy-summer {
+.text-dominant-copy-summer {
   color: white;
 }
 
-.bg-secondary-copy-summer {
+.bg-dominant-copy-summer {
   background-color: white;
 }
 
-.border-color-secondary-copy-summer {
+.border-color-dominant-copy-summer {
   border-color: white;
 }
 
@@ -375,27 +375,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-rain {
+.text-complementary-rain {
   color: #545d68;
 }
 
-.bg-primary-rain {
+.bg-complementary-rain {
   background-color: #545d68;
 }
 
-.border-color-primary-rain {
+.border-color-complementary-rain {
   border-color: #545d68;
 }
 
-.text-secondary-rain {
+.text-dominant-rain {
   color: #95a8b7;
 }
 
-.bg-secondary-rain {
+.bg-dominant-rain {
   background-color: #95a8b7;
 }
 
-.border-color-secondary-rain {
+.border-color-dominant-rain {
   border-color: #95a8b7;
 }
 
@@ -411,27 +411,27 @@ button:hover {
   border-color: #64796e;
 }
 
-.text-primary-copy-rain {
+.text-complementary-copy-rain {
   color: white;
 }
 
-.bg-primary-copy-rain {
+.bg-complementary-copy-rain {
   background-color: white;
 }
 
-.border-color-primary-copy-rain {
+.border-color-complementary-copy-rain {
   border-color: white;
 }
 
-.text-secondary-copy-rain {
+.text-dominant-copy-rain {
   color: black;
 }
 
-.bg-secondary-copy-rain {
+.bg-dominant-copy-rain {
   background-color: black;
 }
 
-.border-color-secondary-copy-rain {
+.border-color-dominant-copy-rain {
   border-color: black;
 }
 
@@ -447,27 +447,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-sunset {
+.text-complementary-sunset {
   color: #762418;
 }
 
-.bg-primary-sunset {
+.bg-complementary-sunset {
   background-color: #762418;
 }
 
-.border-color-primary-sunset {
+.border-color-complementary-sunset {
   border-color: #762418;
 }
 
-.text-secondary-sunset {
+.text-dominant-sunset {
   color: #2a1114;
 }
 
-.bg-secondary-sunset {
+.bg-dominant-sunset {
   background-color: #2a1114;
 }
 
-.border-color-secondary-sunset {
+.border-color-dominant-sunset {
   border-color: #2a1114;
 }
 
@@ -483,27 +483,27 @@ button:hover {
   border-color: #e1762e;
 }
 
-.text-primary-copy-sunset {
+.text-complementary-copy-sunset {
   color: white;
 }
 
-.bg-primary-copy-sunset {
+.bg-complementary-copy-sunset {
   background-color: white;
 }
 
-.border-color-primary-copy-sunset {
+.border-color-complementary-copy-sunset {
   border-color: white;
 }
 
-.text-secondary-copy-sunset {
+.text-dominant-copy-sunset {
   color: white;
 }
 
-.bg-secondary-copy-sunset {
+.bg-dominant-copy-sunset {
   background-color: white;
 }
 
-.border-color-secondary-copy-sunset {
+.border-color-dominant-copy-sunset {
   border-color: white;
 }
 
@@ -519,27 +519,27 @@ button:hover {
   border-color: black;
 }
 
-.text-primary-luxury {
+.text-complementary-luxury {
   color: #16181d;
 }
 
-.bg-primary-luxury {
+.bg-complementary-luxury {
   background-color: #16181d;
 }
 
-.border-color-primary-luxury {
+.border-color-complementary-luxury {
   border-color: #16181d;
 }
 
-.text-secondary-luxury {
+.text-dominant-luxury {
   color: #101318;
 }
 
-.bg-secondary-luxury {
+.bg-dominant-luxury {
   background-color: #101318;
 }
 
-.border-color-secondary-luxury {
+.border-color-dominant-luxury {
   border-color: #101318;
 }
 
@@ -555,27 +555,27 @@ button:hover {
   border-color: #eaeeef;
 }
 
-.text-primary-copy-luxury {
+.text-complementary-copy-luxury {
   color: white;
 }
 
-.bg-primary-copy-luxury {
+.bg-complementary-copy-luxury {
   background-color: white;
 }
 
-.border-color-primary-copy-luxury {
+.border-color-complementary-copy-luxury {
   border-color: white;
 }
 
-.text-secondary-copy-luxury {
+.text-dominant-copy-luxury {
   color: white;
 }
 
-.bg-secondary-copy-luxury {
+.bg-dominant-copy-luxury {
   background-color: white;
 }
 
-.border-color-secondary-copy-luxury {
+.border-color-dominant-copy-luxury {
   border-color: white;
 }
 
@@ -591,27 +591,27 @@ button:hover {
   border-color: black;
 }
 
-.text-primary-technology {
+.text-complementary-technology {
   color: #0a405e;
 }
 
-.bg-primary-technology {
+.bg-complementary-technology {
   background-color: #0a405e;
 }
 
-.border-color-primary-technology {
+.border-color-complementary-technology {
   border-color: #0a405e;
 }
 
-.text-secondary-technology {
+.text-dominant-technology {
   color: #091a2f;
 }
 
-.bg-secondary-technology {
+.bg-dominant-technology {
   background-color: #091a2f;
 }
 
-.border-color-secondary-technology {
+.border-color-dominant-technology {
   border-color: #091a2f;
 }
 
@@ -627,27 +627,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-copy-technology {
+.text-complementary-copy-technology {
   color: white;
 }
 
-.bg-primary-copy-technology {
+.bg-complementary-copy-technology {
   background-color: white;
 }
 
-.border-color-primary-copy-technology {
+.border-color-complementary-copy-technology {
   border-color: white;
 }
 
-.text-secondary-copy-technology {
+.text-dominant-copy-technology {
   color: white;
 }
 
-.bg-secondary-copy-technology {
+.bg-dominant-copy-technology {
   background-color: white;
 }
 
-.border-color-secondary-copy-technology {
+.border-color-dominant-copy-technology {
   border-color: white;
 }
 
@@ -663,27 +663,27 @@ button:hover {
   border-color: black;
 }
 
-.text-primary-omega {
+.text-complementary-omega {
   color: #27036d;
 }
 
-.bg-primary-omega {
+.bg-complementary-omega {
   background-color: #27036d;
 }
 
-.border-color-primary-omega {
+.border-color-complementary-omega {
   border-color: #27036d;
 }
 
-.text-secondary-omega {
+.text-dominant-omega {
   color: #6048ba;
 }
 
-.bg-secondary-omega {
+.bg-dominant-omega {
   background-color: #6048ba;
 }
 
-.border-color-secondary-omega {
+.border-color-dominant-omega {
   border-color: #6048ba;
 }
 
@@ -699,27 +699,27 @@ button:hover {
   border-color: #e3137b;
 }
 
-.text-primary-copy-omega {
+.text-complementary-copy-omega {
   color: white;
 }
 
-.bg-primary-copy-omega {
+.bg-complementary-copy-omega {
   background-color: white;
 }
 
-.border-color-primary-copy-omega {
+.border-color-complementary-copy-omega {
   border-color: white;
 }
 
-.text-secondary-copy-omega {
+.text-dominant-copy-omega {
   color: white;
 }
 
-.bg-secondary-copy-omega {
+.bg-dominant-copy-omega {
   background-color: white;
 }
 
-.border-color-secondary-copy-omega {
+.border-color-dominant-copy-omega {
   border-color: white;
 }
 
@@ -735,27 +735,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-moth {
+.text-complementary-moth {
   color: #6f6152;
 }
 
-.bg-primary-moth {
+.bg-complementary-moth {
   background-color: #6f6152;
 }
 
-.border-color-primary-moth {
+.border-color-complementary-moth {
   border-color: #6f6152;
 }
 
-.text-secondary-moth {
+.text-dominant-moth {
   color: #2f2b2a;
 }
 
-.bg-secondary-moth {
+.bg-dominant-moth {
   background-color: #2f2b2a;
 }
 
-.border-color-secondary-moth {
+.border-color-dominant-moth {
   border-color: #2f2b2a;
 }
 
@@ -771,27 +771,27 @@ button:hover {
   border-color: #d9dad4;
 }
 
-.text-primary-copy-moth {
+.text-complementary-copy-moth {
   color: white;
 }
 
-.bg-primary-copy-moth {
+.bg-complementary-copy-moth {
   background-color: white;
 }
 
-.border-color-primary-copy-moth {
+.border-color-complementary-copy-moth {
   border-color: white;
 }
 
-.text-secondary-copy-moth {
+.text-dominant-copy-moth {
   color: white;
 }
 
-.bg-secondary-copy-moth {
+.bg-dominant-copy-moth {
   background-color: white;
 }
 
-.border-color-secondary-copy-moth {
+.border-color-dominant-copy-moth {
   border-color: white;
 }
 
@@ -807,27 +807,27 @@ button:hover {
   border-color: black;
 }
 
-.text-primary-sketch {
+.text-complementary-sketch {
   color: #0a0a0a;
 }
 
-.bg-primary-sketch {
+.bg-complementary-sketch {
   background-color: #0a0a0a;
 }
 
-.border-color-primary-sketch {
+.border-color-complementary-sketch {
   border-color: #0a0a0a;
 }
 
-.text-secondary-sketch {
+.text-dominant-sketch {
   color: #d6d6d6;
 }
 
-.bg-secondary-sketch {
+.bg-dominant-sketch {
   background-color: #d6d6d6;
 }
 
-.border-color-secondary-sketch {
+.border-color-dominant-sketch {
   border-color: #d6d6d6;
 }
 
@@ -843,27 +843,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-copy-sketch {
+.text-complementary-copy-sketch {
   color: white;
 }
 
-.bg-primary-copy-sketch {
+.bg-complementary-copy-sketch {
   background-color: white;
 }
 
-.border-color-primary-copy-sketch {
+.border-color-complementary-copy-sketch {
   border-color: white;
 }
 
-.text-secondary-copy-sketch {
+.text-dominant-copy-sketch {
   color: black;
 }
 
-.bg-secondary-copy-sketch {
+.bg-dominant-copy-sketch {
   background-color: black;
 }
 
-.border-color-secondary-copy-sketch {
+.border-color-dominant-copy-sketch {
   border-color: black;
 }
 
@@ -879,27 +879,27 @@ button:hover {
   border-color: black;
 }
 
-.text-primary-bounce {
+.text-complementary-bounce {
   color: #e5c1a5;
 }
 
-.bg-primary-bounce {
+.bg-complementary-bounce {
   background-color: #e5c1a5;
 }
 
-.border-color-primary-bounce {
+.border-color-complementary-bounce {
   border-color: #e5c1a5;
 }
 
-.text-secondary-bounce {
+.text-dominant-bounce {
   color: #100f0d;
 }
 
-.bg-secondary-bounce {
+.bg-dominant-bounce {
   background-color: #100f0d;
 }
 
-.border-color-secondary-bounce {
+.border-color-dominant-bounce {
   border-color: #100f0d;
 }
 
@@ -915,27 +915,27 @@ button:hover {
   border-color: #d561a4;
 }
 
-.text-primary-copy-bounce {
+.text-complementary-copy-bounce {
   color: black;
 }
 
-.bg-primary-copy-bounce {
+.bg-complementary-copy-bounce {
   background-color: black;
 }
 
-.border-color-primary-copy-bounce {
+.border-color-complementary-copy-bounce {
   border-color: black;
 }
 
-.text-secondary-copy-bounce {
+.text-dominant-copy-bounce {
   color: white;
 }
 
-.bg-secondary-copy-bounce {
+.bg-dominant-copy-bounce {
   background-color: white;
 }
 
-.border-color-secondary-copy-bounce {
+.border-color-dominant-copy-bounce {
   border-color: white;
 }
 
@@ -951,27 +951,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-chromeo {
+.text-complementary-chromeo {
   color: #fee1b2;
 }
 
-.bg-primary-chromeo {
+.bg-complementary-chromeo {
   background-color: #fee1b2;
 }
 
-.border-color-primary-chromeo {
+.border-color-complementary-chromeo {
   border-color: #fee1b2;
 }
 
-.text-secondary-chromeo {
+.text-dominant-chromeo {
   color: #163b68;
 }
 
-.bg-secondary-chromeo {
+.bg-dominant-chromeo {
   background-color: #163b68;
 }
 
-.border-color-secondary-chromeo {
+.border-color-dominant-chromeo {
   border-color: #163b68;
 }
 
@@ -987,27 +987,27 @@ button:hover {
   border-color: white;
 }
 
-.text-primary-copy-chromeo {
+.text-complementary-copy-chromeo {
   color: black;
 }
 
-.bg-primary-copy-chromeo {
+.bg-complementary-copy-chromeo {
   background-color: black;
 }
 
-.border-color-primary-copy-chromeo {
+.border-color-complementary-copy-chromeo {
   border-color: black;
 }
 
-.text-secondary-copy-chromeo {
+.text-dominant-copy-chromeo {
   color: white;
 }
 
-.bg-secondary-copy-chromeo {
+.bg-dominant-copy-chromeo {
   background-color: white;
 }
 
-.border-color-secondary-copy-chromeo {
+.border-color-dominant-copy-chromeo {
   border-color: white;
 }
 
