@@ -281,6 +281,7 @@ button:hover {
     flex-direction: column;
     flex: 1;
   }
+
 }
 @media (min-width: 0) {
   .responsive-test {
@@ -1021,4 +1022,292 @@ button:hover {
 
 .border-color-accent-copy-chromeo {
   border-color: black;
+}
+
+.text-complementary-fresh {
+  color: #edf5e1;
+}
+
+.bg-complementary-fresh {
+  background-color: #edf5e1;
+}
+
+.border-color-complementary-fresh {
+  border-color: #edf5e1;
+}
+
+.text-dominant-fresh {
+  color: #5cdb95;
+}
+
+.bg-dominant-fresh {
+  background-color: #5cdb95;
+}
+
+.border-color-dominant-fresh {
+  border-color: #5cdb95;
+}
+
+.text-accent-fresh {
+  color: #05386b;
+}
+
+.bg-accent-fresh {
+  background-color: #05386b;
+}
+
+.border-color-accent-fresh {
+  border-color: #05386b;
+}
+
+.text-complementary-copy-fresh {
+  color: black;
+}
+
+.bg-complementary-copy-fresh {
+  background-color: black;
+}
+
+.border-color-complementary-copy-fresh {
+  border-color: black;
+}
+
+.text-dominant-copy-fresh {
+  color: black;
+}
+
+.bg-dominant-copy-fresh {
+  background-color: black;
+}
+
+.border-color-dominant-copy-fresh {
+  border-color: black;
+}
+
+.text-accent-copy-fresh {
+  color: white;
+}
+
+.bg-accent-copy-fresh {
+  background-color: white;
+}
+
+.border-color-accent-copy-fresh {
+  border-color: white;
+}
+
+.text-complementary-sophisticated {
+  color: #b1a296;
+}
+
+.bg-complementary-sophisticated {
+  background-color: #b1a296;
+}
+
+.border-color-complementary-sophisticated {
+  border-color: #b1a296;
+}
+
+.text-dominant-sophisticated {
+  color: #557a95;
+}
+
+.bg-dominant-sophisticated {
+  background-color: #557a95;
+}
+
+.border-color-dominant-sophisticated {
+  border-color: #557a95;
+}
+
+.text-accent-sophisticated {
+  color: white;
+}
+
+.bg-accent-sophisticated {
+  background-color: white;
+}
+
+.border-color-accent-sophisticated {
+  border-color: white;
+}
+
+.text-complementary-copy-sophisticated {
+  color: black;
+}
+
+.bg-complementary-copy-sophisticated {
+  background-color: black;
+}
+
+.border-color-complementary-copy-sophisticated {
+  border-color: black;
+}
+
+.text-dominant-copy-sophisticated {
+  color: white;
+}
+
+.bg-dominant-copy-sophisticated {
+  background-color: white;
+}
+
+.border-color-dominant-copy-sophisticated {
+  border-color: white;
+}
+
+.text-accent-copy-sophisticated {
+  color: black;
+}
+
+.bg-accent-copy-sophisticated {
+  background-color: black;
+}
+
+.border-color-accent-copy-sophisticated {
+  border-color: black;
+}
+
+.text-complementary-approachable {
+  color: #edc7b7;
+}
+
+.bg-complementary-approachable {
+  background-color: #edc7b7;
+}
+
+.border-color-complementary-approachable {
+  border-color: #edc7b7;
+}
+
+.text-dominant-approachable {
+  color: #eee2dc;
+}
+
+.bg-dominant-approachable {
+  background-color: #eee2dc;
+}
+
+.border-color-dominant-approachable {
+  border-color: #eee2dc;
+}
+
+.text-accent-approachable {
+  color: #123c69;
+}
+
+.bg-accent-approachable {
+  background-color: #123c69;
+}
+
+.border-color-accent-approachable {
+  border-color: #123c69;
+}
+
+.text-complementary-copy-approachable {
+  color: black;
+}
+
+.bg-complementary-copy-approachable {
+  background-color: black;
+}
+
+.border-color-complementary-copy-approachable {
+  border-color: black;
+}
+
+.text-dominant-copy-approachable {
+  color: black;
+}
+
+.bg-dominant-copy-approachable {
+  background-color: black;
+}
+
+.border-color-dominant-copy-approachable {
+  border-color: black;
+}
+
+.text-accent-copy-approachable {
+  color: white;
+}
+
+.bg-accent-copy-approachable {
+  background-color: white;
+}
+
+.border-color-accent-copy-approachable {
+  border-color: white;
+}
+
+.text-complementary-clean {
+  color: #5680e9;
+}
+
+.bg-complementary-clean {
+  background-color: #5680e9;
+}
+
+.border-color-complementary-clean {
+  border-color: #5680e9;
+}
+
+.text-dominant-clean {
+  color: #84ceeb;
+}
+
+.bg-dominant-clean {
+  background-color: #84ceeb;
+}
+
+.border-color-dominant-clean {
+  border-color: #84ceeb;
+}
+
+.text-accent-clean {
+  color: #8860d0;
+}
+
+.bg-accent-clean {
+  background-color: #8860d0;
+}
+
+.border-color-accent-clean {
+  border-color: #8860d0;
+}
+
+.text-complementary-copy-clean {
+  color: white;
+}
+
+.bg-complementary-copy-clean {
+  background-color: white;
+}
+
+.border-color-complementary-copy-clean {
+  border-color: white;
+}
+
+.text-dominant-copy-clean {
+  color: black;
+}
+
+.bg-dominant-copy-clean {
+  background-color: black;
+}
+
+.border-color-dominant-copy-clean {
+  border-color: black;
+}
+
+.text-accent-copy-clean {
+  color: white;
+}
+
+.bg-accent-copy-clean {
+  background-color: white;
+}
+
+.border-color-accent-copy-clean {
+  border-color: white;
 }
