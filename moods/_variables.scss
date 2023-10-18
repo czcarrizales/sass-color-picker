@@ -1,49 +1,101 @@
-$primary: red;
-$secondary: orange;
-$error: red;
-$info: pink;
-
-// color palette
-$warm: (
-    "dominant": red,
-    "complement": orange,
-    "accent": yellow
+$summer: (
+    "primary": #e9b41d,
+    "secondary": #3fc4e4,
+    "accent": #f15e34,
+    "primary-copy": black,
+    "secondary-copy": white,
+    "accent-copy": white
 );
 
-$cool: (
-    "dominant": blue,
-    "complement": lightblue,
-    "accent": orange
+$rain: (
+    "primary": #545d68,
+    "secondary":  #95a8b7,
+    "accent": #64796e,
+    "primary-copy": white,
+    "secondary-copy": black,
+    "accent-copy": white
+
 );
 
-$colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "error": $error,
-    "info": $info,
-    "blue": blue,
-    "orange": orange,
-    "red": red,
-    "pink": pink,
-    "black": black,
-    "white": white
+$sunset: (
+    "primary": #762418,
+    "secondary": #2a1114,
+    "accent": #e1762e,
+    "primary-copy": white,
+    "secondary-copy": white,
+    "accent-copy": black
 );
 
-.test-btn {
-    background-color: map-get($colors, "purple");
-}
+$luxury: (
+    "primary": #16181d,
+    "secondary": #101318,
+    "accent": #eaeeef,
+    "primary-copy": white,
+    "secondary-copy": white,
+    "accent-copy": black
+);
 
-@debug map-get($colors, "white" );
-@debug map-has-key($colors, "secondary");
-@debug map-remove($colors, "primary");
-@debug map-merge($colors, ("pink": pink));
+$technology: (
+    "primary": #0a405e,
+    "secondary": #091a2f,
+    "accent": white,
+    "primary-copy": white,
+    "secondary-copy": white,
+    "accent-copy": black
+);
+
+$omega: (
+    "primary": #27036d,
+    "secondary": #6048ba,
+    "accent": #e3137b,
+    "primary-copy": white,
+    "secondary-copy": white,
+    "accent-copy": white
+);
+
+$moth: (
+    "primary": #6f6152,
+    "secondary": #2f2b2a,
+    "accent": #d9dad4,
+    "primary-copy": white,
+    "secondary-copy": white,
+    "accent-copy": black
+);
+
+$sketch: (
+    "primary": #0a0a0a,
+    "secondary": #d6d6d6,
+    "accent": white,
+    "primary-copy": white,
+    "secondary-copy": black,
+    "accent-copy": black
+);
+
+$bounce: (
+    "primary": #e5c1a5,
+    "secondary": #100f0d,
+    "accent": #d561a4,
+    "primary-copy": black,
+    "secondary-copy": white,
+    "accent-copy": white
+);
+
+$chromeo: (
+    "primary": #fee1b2,
+    "secondary": #163b68,
+    "accent": white,
+    "primary-copy": black,
+    "secondary-copy": white,
+    "accent-copy": black
+);
+
 
 // spacing
-$base-padding: 0.8rem;
+$base-padding: 1.2rem;
 $base-margin: 0.8rem;
 
 $base-border-thickness: 1px;
-$base-border-radius: 20px;
+$base-border-radius: 30px;
 
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 

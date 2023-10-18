@@ -1,58 +1,121 @@
-@each $key, $val in $warm {
-    .text-#{$key}-warm {
+@each $key, $val in $summer {
+    .text-#{$key}-summer {
         color: $val;
+    }
+
+    .bg-#{$key}-summer {
+        background-color: $val;
+    }
+
+    .border-color-#{$key}-summer {
+        border-color: $val;
     }
 }
 
-@each $key, $val in $cool {
-    .text-#{$key}-cool {
+@each $key, $val in $rain {
+    .text-#{$key}-rain {
         color: $val;
+    }
+    .bg-#{$key}-rain {
+        background-color: $val;
+    }
+    .border-color-#{$key}-rain {
+        border-color: $val;
     }
 }
 
-// @each $key, $val in $colors {
-//     .text-#{$key} {
-//         color: $val
-//     }
+@each $key, $val in $sunset {
+    .text-#{$key}-sunset {
+        color: $val;
+    }
+    .bg-#{$key}-sunset {
+        background-color: $val;
+    }
+    .border-color-#{$key}-sunset {
+        border-color: $val;
+    }
+}
 
-//     .text-hover-#{$key} {
-//         &:hover {
-//             color: $val
-//         }
-//     }
+@each $key, $val in $luxury {
+    .text-#{$key}-luxury {
+        color: $val;
+    }
+    .bg-#{$key}-luxury {
+        background-color: $val;
+    }
+    .border-color-#{$key}-luxury {
+        border-color: $val;
+    }
+}
 
-//     .bg-#{$key} {
-//         background-color: $val;
-//     }
+@each $key, $val in $technology {
+    .text-#{$key}-technology {
+        color: $val;
+    }
+    .bg-#{$key}-technology {
+        background-color: $val;
+    }
+    .border-color-#{$key}-technology {
+        border-color: $val;
+    }
+}
 
-//     @if($val !=black and $val !=white) {
-//         @for $i from 1 through 9 {
-//             .text-#{$key}-light-#{$i} {
-//                 color: mix(white, $val, $i * 10%);
-//             }
+@each $key, $val in $omega {
+    .text-#{$key}-omega {
+        color: $val;
+    }
+    .bg-#{$key}-omega {
+        background-color: $val;
+    }
+    .border-color-#{$key}-omega {
+        border-color: $val;
+    }
+}
 
-//             .bg-hover-#{$key}-light-#{$i}{
-//                 &:hover {
-//                     background-color: mix(white, $val, $i * 10%)
-//                 }
-//             }
+@each $key, $val in $moth {
+    .text-#{$key}-moth {
+        color: $val;
+    }
+    .bg-#{$key}-moth {
+        background-color: $val;
+    }
+    .border-color-#{$key}-moth {
+        border-color: $val;
+    }
+}
 
-//             .bg-#{$key}-light-#{$i} {
-//                 background-color: mix(white, $val, $i * 10%);
-//             }
-//         }
+@each $key, $val in $sketch {
+    .text-#{$key}-sketch {
+        color: $val;
+    }
+    .bg-#{$key}-sketch {
+        background-color: $val;
+    }
+    .border-color-#{$key}-sketch {
+        border-color: $val;
+    }
+}
 
-//         @for $i from 1 through 9 {
-//             .text-#{$key}-dark-#{$i} {
-//                 color: mix(black, $val, $i * 10%);
-//             }
+@each $key, $val in $bounce {
+    .text-#{$key}-bounce {
+        color: $val;
+    }
+    .bg-#{$key}-bounce {
+        background-color: $val;
+    }
+    .border-color-#{$key}-bounce {
+        border-color: $val;
+    }
+}
 
-//             .bg-#{$key}-dark-#{$i} {
-//                 background-color: mix(black, $val, $i * 10%);
-//             }
-//         }
-//     }
-
-
-
-// }
+@each $key, $val in $chromeo {
+    .text-#{$key}-chromeo {
+        color: $val;
+    }
+    .bg-#{$key}-chromeo {
+        background-color: $val;
+    }
+    .border-color-#{$key}-chromeo {
+        border-color: $val;
+    }
+}

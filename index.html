@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/index.css">
     <title>SASS Color Picker</title>
+    <script src="script.js" defer></script>
 </head>
-<body>
-    <div>
-        <div>
-            <h1 class="text-dominant-cool">Mood Test</h1>
-            <h2 class="text-accent-cool">Trying to test out the mood of the website, and seeing if clicking a button can change the color moods.</h2>
-            <button class="text-dominant-cool">Cool</button>
+<body class="bg-secondary-warm">
+    <div id="main-container">
+        <div id="main-container-title">
+            <h1>Mood Test</h1>
+            <h2>Testing out moods.</h2>
+            <button onclick="getRandomColor()">Get a random mood!</button>
         </div>
-        <div>
-            <p>one</p>
-            <p>two</p>
-            <p>three</p>
+        <div id="mood-target-container">
+            <h2 id="current-mood">Mood</h2>
+            <div id="outer">
+                <div id="middle">
+                    <div id="inner"></div>
+                </div>
+            </div>
         </div>
     </div>
-    <div>
-        <p>box one</p>
-        <p>box two</p>
-        <p>box three</p>
+    <div id="boxes">
+        <p id="box1" class="box">Primary</p>
+        <p id="box2" class="box">Secondary</p>
+        <p id="box3" class="box">Accent</p>
     </div>
     
 </body>
