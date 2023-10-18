@@ -281,7 +281,6 @@ button:hover {
     flex-direction: column;
     flex: 1;
   }
-
 }
 @media (min-width: 0) {
   .responsive-test {
