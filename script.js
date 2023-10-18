@@ -6,7 +6,7 @@ const getRandomColor = () => {
     const randomColor = filteredColors[Math.floor(Math.random() * filteredColors.length)]
     selectedColor = randomColor
     document.querySelector('body').className = `bg-secondary-${randomColor}`
-    document.getElementById('main-container').className = `bg-primary-${randomColor}`
+    document.getElementById('main-container').className = `bg-primary-${randomColor} border-color-secondary-copy-${randomColor}`
     document.querySelector('h1').className = `text-primary-copy-${randomColor}`
     document.querySelector('h2').className = `text-primary-copy-${randomColor}`
     document.querySelector('button').className = `bg-accent-${randomColor} text-accent-copy-${randomColor}`
