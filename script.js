@@ -1,4 +1,4 @@
-const colors = ['summer', 'rain', 'sunset', 'luxury', 'technology', 'omega', 'moth', 'sketch', 'bounce', 'chromeo', 'fresh', 'sophisticated', 'approachable']
+const colors = ['summer', 'rain', 'sunset', 'luxury', 'technology', 'omega', 'moth', 'sketch', 'bounce', 'chromeo', 'fresh', 'sophisticated', 'approachable', 'clean']
 let selectedColor = ''
 
 const getRandomColor = () => {

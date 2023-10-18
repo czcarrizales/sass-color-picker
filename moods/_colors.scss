@@ -155,3 +155,15 @@
         border-color: $val;
     }
 }
+
+@each $key, $val in $clean {
+    .text-#{$key}-clean {
+        color: $val;
+    }
+    .bg-#{$key}-clean {
+        background-color: $val;
+    }
+    .border-color-#{$key}-clean {
+        border-color: $val;
+    }
+}
