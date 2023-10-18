@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <title>SASS Color Picker</title>
     <script src="script.js" defer></script>
 </head>
+
 <body class="bg-secondary-warm">
     <div id="main-container">
         <div id="main-container-title">
             <h1>Mood Test</h1>
             <h2>Testing out moods.</h2>
-            <button onclick="getRandomColor()">Get a random mood!</button>
+            <button id="main-container-button" onclick="getRandomColor()">Get a random mood!</button>
         </div>
         <div id="mood-target-container">
             <h2 id="current-mood">Mood</h2>
@@ -28,6 +30,55 @@
         <p id="box2" class="box">Secondary</p>
         <p id="box3" class="box">Accent</p>
     </div>
-    
+    <div id="examples">
+        <div id="card">
+            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1974"
+                alt="">
+            <h3 id="card-heading">Nike Shoe</h3>
+            <p id="card-paragraph">$99</p>
+            <button id="shop-card-button">Buy Now</button>
+        </div>
+        <div id="profile-card">
+            <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1972" alt="">
+            <h2 id="profile-card-name">Name</h2>
+            <h3 id="profile-card-email">Email</h3>
+            <button id="profile-card-button">Follow Me!</button>
+            <div id="profile-follow-container">
+                <div id="profile-card-followers">
+                    <p>Followers</p>
+                    <p>1.2k</p>
+                </div>
+                <div id="profile-card-following">
+                    <p>Following</p>
+                    <p>82</p>
+                </div>
+            </div>
+        </div>
+        <div id="friends-list">
+            <h2>Add Friends!</h2>
+            <div class="friends-list-row">
+                <p class="friends-list-row-name">Name</p>
+                <button class="friends-list-row-button">Add</button>
+            </div>
+            <div class="friends-list-row">
+                <p class="friends-list-row-name">Name</p>
+                <button class="friends-list-row-button">Add</button>
+            </div>
+            <div class="friends-list-row">
+                <p class="friends-list-row-name">Name</p>
+                <button class="friends-list-row-button">Add</button>
+            </div>
+            <div class="friends-list-row">
+                <p class="friends-list-row-name">Name</p>
+                <button class="friends-list-row-button">Add</button>
+            </div>
+            <div class="friends-list-row">
+                <p class="friends-list-row-name">Name</p>
+                <button class="friends-list-row-button">Add</button>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
